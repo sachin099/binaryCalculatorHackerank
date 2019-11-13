@@ -1,0 +1,68 @@
+﻿body {
+    width: 100%
+}
+
+.gap{
+    margin:2%;
+}
+
+.littleGap{
+
+    margin:2%;
+}
+
+.display1{
+
+    text-align:center;
+}
+
+/*Result Section*/
+.resultSection {
+    width: 50%;
+    margin-left: 23.5%;
+    box-shadow: 5px 10px 50px #888888;
+}
+#res {
+    background-color: lightgray;
+    border: solid;
+    height: 48px;
+    font-size: 20px
+}
+
+/*Result Section end*/
+
+/*Buttons container and button styling*/
+#btns button {
+    width: 25%;
+    height: 36px;
+    font-size: 18px;
+    margin: 0px;
+    float: left;
+}
+
+#btn0, #btn1 {
+    background-color: lightgreen;
+    color: brown;
+}
+
+#btnClr, #btnEql {
+    background-color: darkgreen;
+    color: white;
+}
+
+#btnSum, #btnSub, #btnMul, #btnDiv {
+    background-color: black;
+    color: red;
+}
+/*Button container section end*/
+
+#demotext {
+    color: #e0dfdc;
+    background: #556677;
+    letter-spacing: .1em;
+    color: #e0dfdc;
+    background: #556677;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
